@@ -5,7 +5,7 @@ function App() {
     console.log(555);
   }, []);
 
-  return <div className="main">Avia</div>;
+  return <div className="main">AviaSales</div>;
 }
 export default App;
 
