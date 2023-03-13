@@ -6,7 +6,7 @@
     margin-left: 20px;
 }
 
-.show{
+.showmore{
     background-color: #2196F3;
     border-radius: 5px;
     width: 100%;
@@ -17,6 +17,13 @@
     cursor: pointer;
     font-family: 'Open Sans';
     font-weight: 600;
+    transition-duration: 0.1s;
+}
+.showmore:hover {
+    border: none;
+    background-image: linear-gradient(to right, #25aae1, #40e4e4, #25aae1);
+    box-shadow: 0 4px 15px 0 rgba(49, 172, 196, 0.75);
+    transition-duration: 0.1s;
 }
 .cards-list{
     box-sizing: border-box;
@@ -30,6 +37,14 @@
     height: 184px;
     width: 100%;
     margin-top: 20px;
+    transition-duration: 0.1s;
+}
+.card:hover{
+    cursor: pointer;
+    // scale: 1.01;
+    border: 1px solid #2196F3;
+    box-shadow: 0 4px 15px 0 rgba(49, 172, 196, 0.25);
+    transition-duration: 0.1s;
 }
 .price{
     display: flex;
@@ -78,11 +93,12 @@
     font-weight: 600;
 }
 
-@media screen and (min-width: 340px) and (max-width: 767px){
+@media screen and (min-width: 319px) and (max-width: 767px){
     .avia-cards{
         margin-left: 0;
         margin-top: 20px;
         margin: 0 auto;
+        width: 100%;
     }
     .avia-info{
         width: 88%;

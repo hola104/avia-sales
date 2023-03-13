@@ -10,6 +10,9 @@
     font-weight: 600;
 
 }
+.tabs:hover {
+   color: #2196F3;
+}
 
 .button-box{
     display: flex;
@@ -27,7 +30,7 @@
     border-radius: 0px 8px 8px 0px;
 }
 
-@media screen and (min-width: 340px) and (max-width: 767px){
+@media screen and (min-width: 319px) and (max-width: 767px){
     .tabs{
         margin-top: 10px;
         height: 30px;

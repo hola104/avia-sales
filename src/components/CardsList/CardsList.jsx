@@ -59,7 +59,7 @@ export default function CardsList({ arr }) {
     <div className={classes["avia-cards"]}>
       <Tabs />
       <div className={classes["cards-list"]}>{tickets}</div>
-      <button type="button" className={classes.show}>
+      <button type="button" className={classes.showmore}>
         ПОКАЗАТЬ ЕЩЕ 5 БИЛЕТОВ!
       </button>
     </div>

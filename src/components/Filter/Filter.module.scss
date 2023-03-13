@@ -10,7 +10,7 @@
     background-color: #fff;
     border: 1px solid #DFE5EC;
     border-radius: 8px;
-    height: 252px;
+    height: 23%;
     
 }
 
@@ -24,13 +24,13 @@
     font-weight: 600;
 }
 .input-box{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .checkbox{
     width: 95.5%;
     cursor: pointer;
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 14px;
     height: 30px;
     margin-left: 9px;
     padding: 4px;
@@ -38,6 +38,7 @@
 .checkbox:hover{
     border-color: #2196F3;
     background-color: #F1FCFF;
+   border-radius: 5px;
 }
 input::before{
     background-color: #2196F3;
@@ -45,13 +46,15 @@ input::before{
 
 
 
-@media screen and (min-width: 500px) and (max-width: 767px){
+@media screen and (min-width: 499px) and (max-width: 767px){
     .filter-box{
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
+        padding-bottom: 15px;
     }
     .filter{
         height: auto;
+        padding-bottom: 25px;
     }
     .title-filter{
         text-align: center;
@@ -66,17 +69,19 @@ input::before{
     }
 }
 
-@media screen and (min-width: 340px) and (max-width: 499px){
+@media screen and (min-width: 319px) and (max-width: 499px){
     .filter-box{
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
+        margin-bottom: 10px;
         height: auto;
     }
     .filter{
         height: auto;
+        padding-bottom: 20px;
     }
     .title-filter{
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
         vertical-align: center;
     }
